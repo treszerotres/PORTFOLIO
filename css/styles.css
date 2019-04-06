@@ -1,5 +1,195 @@
 body{
     background-color: #1a1d08;
+    margin: 0%;
+}
+
+#container{
+
+
+
+}
+
+
+#topnav{
+    width: 110%;
+    height: 80px;
+    box-shadow: 0 15px 36px 0 rgba(255, 251, 0, 0.1);
+    background-color: #030303;
+
+}
+
+#topnav .about{
+    float: left;
+    width: 23%;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+#social{
+    float: right;
+    width: 23%;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+#social .li{
+    float: left;
+    width: 4%;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+#welcome{
+    margin-top: 140px;
+
+}
+
+#footer{
+    width: 110%;
+    height: 60px;
+    background-color: #545454;
+
+}
+
+/* Estils BODY  */
+p, .bodyregularcenter{
     font-family: "Source Sans Pro";
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
     color: #ffffff;
-}   
+}
+
+p, .bodyregularleft{
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+p, .bodyblueboldcenter{
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    color: #b1cfdf;
+}
+
+p, .bodybluebolleft{
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: left;
+    color: #b1cfdf;
+}
+
+p, .bodyrboldlinkleft{
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #c4ea00;
+}
+
+/* Estils LEAD  */
+p, .leadblueregularleft{
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #B1CFDF;
+}
+
+p, .linkleadblueregularleft{
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #B1CFDF;
+    text-decoration: none;
+}
+
+p, .leadblueregularcenter{
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #B1CFDF;
+}
+
+p, .leadwhiteregularcenter{
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    margin-bottom: 104px;
+    color: #ffffff;
+}
+
+/* Estils H  */
+
+h1, .h1bluecenter{
+    font-family: "Montserrat";
+    font-size: 48px;
+    font-weight: normal;
+    line-height: 1.13;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #b1cfdf;
+}
+
+h1, .h1blueleft{
+    font-family: "Montserrat";
+    font-size: 48px;
+    font-weight: normal;
+    line-height: 1.13;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #b1cfdf;
+}
+
+h5, .h5bluecenter{
+    font-family: "Montserrat";
+    font-size: 23px;
+    font-weight: normal;
+    line-height: 1.13;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #B1CFDF;
+}
+
+h5, .h5blueleft{
+    font-family: "Montserrat";
+    font-size: 23px;
+    font-weight: normal;
+    line-height: 1.13;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #b1cfdf;
+}
+
+/* Estils SPAN  */
