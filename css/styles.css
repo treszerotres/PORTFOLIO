@@ -15,10 +15,9 @@ body{
     height: 80px;
     box-shadow: 0 15px 36px 0 rgba(255, 251, 0, 0.1);
     background-color: #030303;
-
 }
 
-#topnav .about{
+#about{
     float: left;
     width: 23%;
     text-align: center;
@@ -26,22 +25,70 @@ body{
     margin-bottom: 24px;
 }
 
+#about a{
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #B1CFDF;
+    text-decoration: none;
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    }
+
+#about a:hover{
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #B1CFDF;
+    text-decoration: none;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    }
+
+#divider{
+    width: 44%;
+    float: left;
+}
+
 #social{
-    float: right;
+    float: left;
     width: 23%;
     margin-top: 24px;
     margin-bottom: 24px;
 }
-#social .li{
+#social li{
     float: left;
-    width: 4%;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    width: 60px;
+    list-style:none;
+}
+
+#social li img:hover{
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+#social li img:hover{
+        opacity: 0.5;
+        filter: alpha(opacity=50);
 }
 
 #welcome{
-    margin-top: 140px;
+    margin-top: 104px;
 
+}
+
+#fletxavertical{
+    text-align: center;
 }
 
 #footer{
@@ -110,19 +157,6 @@ p, .leadblueregularleft{
     letter-spacing: normal;
     text-align: left;
     color: #B1CFDF;
-}
-
-p, .linkleadblueregularleft{
-    font-family: "Source Sans Pro";
-    font-size: 20px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
-    text-align: left;
-    color: #B1CFDF;
-    text-decoration: none;
 }
 
 p, .leadblueregularcenter{
