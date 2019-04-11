@@ -1,3 +1,5 @@
+/*          GENERAL           */
+
 body{
     background-color: #1a1d08;
     margin: 0%;
@@ -6,23 +8,24 @@ body{
 #container{
 
 
-
 }
-
+/*          CSS NAVEGACIÓ           */
 
 #topnav{
-    width: 110%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
     height: 80px;
     box-shadow: 0 15px 36px 0 rgba(255, 251, 0, 0.1);
     background-color: #030303;
 }
 
 #about{
+    margin-left: 10%;
     float: left;
-    width: 23%;
     text-align: center;
     margin-top: 24px;
-    margin-bottom: 24px;
 }
 
 #about a{
@@ -55,16 +58,16 @@ body{
     filter: alpha(opacity=50);
     }
 
-#divider{
+#dividernav{
     width: 44%;
     float: left;
 }
 
 #social{
-    float: left;
-    width: 23%;
+    float: right;
     margin-top: 24px;
     margin-bottom: 24px;
+    margin-right: 10%;
 }
 #social li{
     float: left;
@@ -81,21 +84,188 @@ body{
         opacity: 0.5;
         filter: alpha(opacity=50);
 }
+/*          CSS CONTINGUT           */
 
 #welcome{
     margin-top: 104px;
 
 }
 
-#fletxavertical{
+#liniavertical{
     text-align: center;
+    z-index: 2;
 }
 
-#footer{
-    width: 110%;
-    height: 60px;
-    background-color: #545454;
+#fletxavertical{
+    margin-top: 10px;
+    text-align: center;
+    z-index: 1;
 
+}
+/*          CSS WORK CARDS             */
+
+#workdiv{
+    margin: 0px;
+    background-color: #1a1d08;
+    padding: 0px;
+    min-height: 900px;
+}
+
+#workdiv2{
+    margin: 0px;
+    background-color: #030303;
+    padding: 0px;
+    min-height: 900px;
+}
+/*          CARDSLEFT             */
+#workinfoleft{
+    width: 40%;
+    margin: 0%;
+    padding-left: 10%;
+    padding-top: 250px;
+    float: left;
+    border: none;
+}
+
+#sectionleft{
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: left;
+    color: #ffffff;
+    padding-bottom: 8px;
+}
+
+#titleleft{
+    font-family: "Montserrat";
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 1.13;
+    letter-spacing: 0.2px;
+    color: #bcdfa9;
+    padding-bottom: 24px;
+}
+
+#worktextleft{
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ffffff;
+    padding-bottom: 80px;
+}
+
+#worklinkleft{
+    padding-right: 10px;
+    text-align: right;
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #c4ea00;
+    padding-bottom: 192px;
+}
+#worklinkleft img{
+    padding-bottom: 6px;
+    align-self: center;
+}
+
+
+#workimgright{
+    width: 50%;
+    margin: 0%;
+    background-color: #FF0022;
+    float: left;
+    min-height: 900px;
+    border: none;
+}
+
+/*          CARDSRIGHT             */
+#workinforight{
+    width: 40%;
+    margin: 0%;
+    padding-left: 1%;
+    padding-top: 250px;
+/*    background-color: #b1b1b1;       */
+    float: left;
+    border: none;
+}
+
+#sectionright{
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: left;
+    color: #ffffff;
+    padding-bottom: 8px;
+}
+
+#titleright{
+    font-family: "Montserrat";
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 1.13;
+    letter-spacing: 0.2px;
+    color: #bcdfa9;
+    padding-bottom: 24px;
+}
+
+#worktextright{
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ffffff;
+    padding-bottom: 80px;
+}
+
+#worklinkright{
+    margin-left: 0px;
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #c4ea00;
+    padding-bottom: 192px;
+}
+#worklinkright img{
+    padding-bottom: 6px;
+}
+
+#workimgleft{
+    width: 50%;
+    margin: 0%;
+    background-color: #FF0022;
+    float: left;
+    min-height: 900px;
+    border: none;
+}
+
+/*      FOOTER      */
+
+#footer{
+    background-color: #C4EA00;
+    font-family: "Source Sans Pro";
+    font-size: 12px;
+    line-height: 1.5;
+    color: #030303;
+    padding-top: 4px;
+}
+
+#footer a{
+    font-family: "Source Sans Pro";
+    font-size: 12px;
+    line-height: 1.5;
+    color: #030303;
+    text-decoration: none;    
+}
+
+#footer a:hover{
+    font-family: "Source Sans Pro";
+    font-size: 12px;
+    line-height: 1.5;
+    color: #5E7100;
+    font-weight: bolder;
 }
 
 /* Estils BODY  */
@@ -189,7 +359,7 @@ p, .leadwhiteregularcenter{
 h1, .h1bluecenter{
     font-family: "Montserrat";
     font-size: 48px;
-    font-weight: normal;
+    font-weight: 300;
     line-height: 1.13;
     letter-spacing: 0.2px;
     text-align: center;
@@ -199,7 +369,7 @@ h1, .h1bluecenter{
 h1, .h1blueleft{
     font-family: "Montserrat";
     font-size: 48px;
-    font-weight: normal;
+    font-weight: 300;
     line-height: 1.13;
     letter-spacing: 0.2px;
     text-align: left;
@@ -209,7 +379,7 @@ h1, .h1blueleft{
 h5, .h5bluecenter{
     font-family: "Montserrat";
     font-size: 23px;
-    font-weight: normal;
+    font-weight: 300;
     line-height: 1.13;
     letter-spacing: 0.2px;
     text-align: center;
@@ -219,7 +389,7 @@ h5, .h5bluecenter{
 h5, .h5blueleft{
     font-family: "Montserrat";
     font-size: 23px;
-    font-weight: normal;
+    font-weight: 300;
     line-height: 1.13;
     letter-spacing: 0.2px;
     text-align: left;
